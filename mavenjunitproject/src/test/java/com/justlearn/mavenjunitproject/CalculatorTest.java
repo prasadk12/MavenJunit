@@ -19,7 +19,7 @@ public class CalculatorTest {
      
 
      @Before
-     void setUp() throws Exception {
+     public void setUp() throws Exception {
          calculator = new Calculator();
      }
 
@@ -34,7 +34,7 @@ public class CalculatorTest {
          assertEquals("Multiple with zero should be zero", 0, calculator.multiply(5,0));
      }
      @After
-     void tearDown() throws Exception
+     public void tearDown() throws Exception
      {
     	 calculator=null;
      }
