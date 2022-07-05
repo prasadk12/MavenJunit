@@ -7,4 +7,7 @@ public class Calculator {
             sum += Integer.valueOf(summand);
             return sum;
     } 
+    public int multiply(int a, int b) {
+        return a * b;
+    }
 }
