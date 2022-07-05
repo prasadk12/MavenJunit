@@ -39,12 +39,12 @@ public class CalculatorTest {
     	 calculator=null;
      }
      @BeforeClass
-     void beforeClass() throws Exception {
+     public static void beforeClass() throws Exception {
          System.out.println("Before class..");
      }
      
      @AfterClass
-     void afterClass() throws Exception {
+     public static void afterClass() throws Exception {
          System.out.println("After class..");
      }
      
