@@ -8,6 +8,6 @@ import com.sanity.SanityTests;
 
 @RunWith(Categories.class)
 @Categories.IncludeCategory(SanityTests.class)
-@Suite.SuiteClasses({CategoryTests.class, CategoryTests2.class, CategoryTests3.class})
+@Suite.SuiteClasses({Category1Test.class, Category2Test.class, Category3Test.class})
 public class SanityTestsSuite {
 }

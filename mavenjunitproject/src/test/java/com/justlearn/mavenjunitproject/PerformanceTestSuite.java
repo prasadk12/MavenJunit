@@ -10,6 +10,6 @@ import com.performance.PerformanceTests;
 @Categories.IncludeCategory(PerformanceTests.class)
 //Include multiple categories
 //@Categories.IncludeCategory({PerformanceTests.class, RegressionTests.class})
-@Suite.SuiteClasses({CategoryTests.class, CategoryTests2.class, CategoryTests3.class})
+@Suite.SuiteClasses({Category1Test.class, Category2Test.class, Category3Test.class})
 public class PerformanceTestSuite {
 }

@@ -1,22 +1,24 @@
 package com.justlearn.mavenjunitproject;
 
 
+
+import static org.junit.Assert.assertThat;
+
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 import com.fail.FailTests;
 import com.pass.PassTests;
-import com.regression.RegressionTests;
+import com.performance.PerformanceTests;
 
-@Category(RegressionTests.class)
-public class CategoryTests2 {
+public class Category1Test {
 	
-
+	@Category(PerformanceTests.class)
     @Test
     public void test_a_1() {
         System.out.println("test_a_1");
     }
-    @Category(RegressionTests.class)
+
     @Test
     public void test_a_2() {
     	System.out.println("test_a_2");
