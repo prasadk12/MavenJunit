@@ -24,12 +24,12 @@ public class CalculatorTest {
      }
 
      @Test
-     void testMultiply() {
+     public void testMultiply() {
          assertEquals( "Regular multiplication should work", calculator.multiply(4,5), 20);
      }
 
      @Test
-     void testMultiplyWithZero() {
+     public void testMultiplyWithZero() {
          assertEquals("Multiple with zero should be zero",0,  calculator.multiply(0,5));
          assertEquals("Multiple with zero should be zero", 0, calculator.multiply(5,0));
      }
